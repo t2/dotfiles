@@ -1,5 +1,26 @@
+# overrides
+alias rm='rm -rf $1'
+
+# config
+alias zea='subl ~/.zsh/aliases'
+alias zec='subl ~/.zsh/config'
+alias dots='subl ~/.dotfiles'
+
 # cd
 alias ..='cd ..'
+alias home='cd ~/'
+alias apps='cd /Applications'
+alias uc='cd ~/Urban\ Coding/'
+alias dt='cd ~/Desktop'
+alias code='cd ~/Dropbox/code'
+alias proj='cd ~/Dropbox/projects'
+alias dl='cd ~/Downloads'
+alias books='cd ~/Documents/Books'
+alias sdks='cd /Library/SDKs'
+alias trent='cd ~/Dropbox/trent'
+alias daxko='cd ~/Dropbox/projects/daxko'
+alias pres='cd ~/Documents/Presentations'
+alias stp='cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages'
 
 # ls
 alias ls="ls -F"
@@ -20,14 +41,16 @@ alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
 
 # rails
-alias sc='script/console'
-alias ss='script/server'
-alias sg='script/generate'
+alias rsc='rails console'
+alias rs='rails server'
+alias rg='rails generate'
 alias a='autotest -rails'
 alias tlog='tail -f log/development.log'
-alias scaffold='script/generate nifty_scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
+
+# cucumber
+alias rca='rake cucumber:all'
 
 # commands starting with % for pasting from web
 alias %=' '

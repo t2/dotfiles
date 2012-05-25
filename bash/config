@@ -1,2 +1,12 @@
-export PS1="\w$ "
-export EDITOR="mate_wait"
+# Reset
+Color_Off='\[\e[0m\]'       # Text Reset
+
+# High Intensty
+IBlack='\[\e[0;90m\]'       # Black
+IRed='\[\e[0;91m\]'         # Red
+IGreen='\[\e[0;92m\]'       # Green
+IYellow='\[\e[0;93m\]'      # Yellow
+IBlue='\[\e[0;94m\]'        # Blue
+IWhite='\[\e[0;97m\]'       # White
+
+export PS1="\`ruby -e \"print (%x{git branch 2> /dev/null}.split(%r{\n}).grep(/^\*/).first || '').gsub(/^\* (.+)$/, '$IBlue[\1]$Color_Off:')\"\`$IWhite\W$Color_Off ~> "
