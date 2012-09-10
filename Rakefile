@@ -48,3 +48,7 @@ def link_file(file)
     system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
   end
 end
+
+def on_windows?
+  RUBY_PLATFORM.downcase.include?("mswin")
+end
