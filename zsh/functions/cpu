@@ -1,0 +1,1 @@
+createuser -d -l -S -R $1
