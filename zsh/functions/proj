@@ -1,1 +1,1 @@
-cd $(find /Users/Trent/Dropbox/projects/ -type d -name "$1" | head -1);
+cd $(find /Users/$(whoami)/Dropbox/projects/ -type d -name "$1" | head -1);
