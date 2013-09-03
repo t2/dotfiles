@@ -24,6 +24,7 @@ alias trent='cd ~/Dropbox/trent'
 alias daxko='cd ~/Dropbox/projects/daxko'
 alias pres='cd ~/Documents/Presentations'
 alias stp='cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages'
+alias box='cd ~/Dropbox'
 
 # ls
 alias ls="ls -F"
