@@ -55,8 +55,7 @@ alias rst='touch tmp/restart.txt'
 
 # rails foreman
 alias fs='foreman start'
-alias fm='foreman run rake db:migrate'
-alias rc='foreman run rails c'
+alias fr='foreman run $1'
 
 # cucumber
 alias rca='rake cucumber:all'
