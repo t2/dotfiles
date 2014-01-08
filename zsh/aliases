@@ -53,6 +53,11 @@ alias tlog='tail -f log/development.log'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
 
+# rails foreman
+alias fs='foreman start'
+alias fm='foreman run rake db:migrate'
+alias rc='foreman run rails c'
+
 # cucumber
 alias rca='rake cucumber:all'
 
