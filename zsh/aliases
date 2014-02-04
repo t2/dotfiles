@@ -57,6 +57,12 @@ alias rst='touch tmp/restart.txt'
 alias fs='foreman start'
 alias fr='foreman run $1'
 
+# bundler
+alias bi='bundle install -j8'
+
+# heroku
+alias promote='heroku pipeline promote'
+
 # cucumber
 alias rca='rake cucumber:all'
 
