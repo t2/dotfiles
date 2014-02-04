@@ -33,11 +33,13 @@ alias ll="ls -l"
 alias la='ls -A'
 
 # git
-alias gl='git pull'
+alias gl='git log'
+alias gpl='git pull'
+alias gplr='git pull --rebase'
 alias gp='git push'
 alias gd='git diff'
-alias gc='git commit'
-alias gca='git commit -a'
+alias gc='git commit -m $1'
+alias ga='git add -A'
 alias gco='git checkout'
 alias gb='git branch'
 alias gs='git status'
