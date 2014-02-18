@@ -12,3 +12,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/platform-tools
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/build-tools
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/tools
+
+# Node
+PATH=$PATH:/usr/local/share/npm/bin
