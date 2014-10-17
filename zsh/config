@@ -9,7 +9,7 @@ done
 eval RESET='$reset_color'
 
 export PS1='%{$WHITE%}$:%c %{$BLUE%}$(git_info_for_prompt)%{$RESET%}~> ' 
-export PATH="$HOME/bin:$HOME/.bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Applications/Postgres.app/Contents/MacOS/bin:$PATH:$PATH"
+export PATH="$HOME/bin:$HOME/.bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"

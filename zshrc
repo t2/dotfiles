@@ -15,3 +15,6 @@ PATH=$PATH:/Applications/Android\ Studio.app/sdk/tools
 
 # Node
 PATH=$PATH:/usr/local/share/npm/bin
+
+# Postgres
+PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin

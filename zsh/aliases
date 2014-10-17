@@ -55,6 +55,9 @@ alias tlog='tail -f log/development.log'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
 
+# rake
+alias rake='noglob rake'
+
 # rails foreman
 alias fs='foreman start'
 alias fr='foreman run $1'
@@ -67,6 +70,9 @@ alias bi='bundle install -j8'
 
 # heroku
 alias promote='heroku pipeline promote'
+
+# redis
+alias rs='redis-server'
 
 # cucumber
 alias rca='rake cucumber:all'
