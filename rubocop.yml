@@ -18,7 +18,7 @@ Lint/AssignmentInCondition:
 # Cop supports --auto-correct.
 # Configuration parameters: AlignWith, SupportedStyles, AutoCorrect.
 Lint/EndAlignment:
-  Enabled: true
+  Enabled: false
 
 # Offense count: 2
 Lint/HandleExceptions:
@@ -125,7 +125,7 @@ Style/EachWithObject:
 # Offense count: 2
 # Cop supports --auto-correct.
 Style/ElseAlignment:
-  Enabled: true
+  Enabled: false
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -158,7 +158,7 @@ Style/FormatString:
 # Offense count: 12
 # Configuration parameters: MinBodyLength.
 Style/GuardClause:
-  Enabled: true
+  Enabled: false
 
 # Offense count: 9
 # Cop supports --auto-correct.
@@ -176,13 +176,13 @@ Style/IfUnlessModifier:
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 Style/IndentHash:
-  Enabled: true
+  Enabled: false
 
 # Offense count: 2
 # Cop supports --auto-correct.
 # Configuration parameters: Width.
 Style/IndentationWidth:
-  Enabled: true
+  Enabled: false
 
 # Offense count: 2
 # Cop supports --auto-correct.
@@ -198,7 +198,7 @@ Style/LeadingCommentSpace:
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 Style/MultilineOperationIndentation:
-  Enabled: true
+  Enabled: false
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -299,3 +299,9 @@ Style/TrailingComma:
 # Configuration parameters: WordRegex.
 Style/WordArray:
   MinSize: 2
+
+Style/ClosingParenthesisIndentation:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false

@@ -10,6 +10,7 @@ export DYLD_LIBRARY_PATH=/usr/local/ImageMagick-6.7.1/lib
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/platform-tools
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/build-tools
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/tools
+export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # Node
 PATH=$PATH:/usr/local/share/npm/bin
@@ -23,3 +24,7 @@ PATH=$PATH:/usr/local/heroku/bin
 # RVM
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
