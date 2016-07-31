@@ -305,3 +305,6 @@ Style/ClosingParenthesisIndentation:
 
 Style/RescueModifier:
   Enabled: false
+
+Metrics/Blocknesting:
+  Enabled: false

@@ -2,28 +2,17 @@
 alias rm='rm -rf $1'
 
 # config
-alias zea='atom ~/.zsh/aliases'
-alias zec='atom ~/.zsh/config'
 alias dots='atom ~/.dotfiles'
 
 # cd
 alias ..='cd ..'
-alias home='cd ~/'
-alias apps='cd /Applications'
 alias dt='cd ~/Desktop'
-alias code='cd ~/Dropbox/code'
-alias ucproj='cd ~/Dropbox/projects/urban_coding'
-alias tproj='cd ~/Dropbox/projects/trent'
-alias bproj='cd ~/Dropbox/projects/breeze'
-alias dproj='cd ~/Dropbox/projects/daxko'
-alias aproj='cd ~/Dropbox/projects/airship'
+alias projects='cd ~/Projects'
 alias dl='cd ~/Downloads'
-alias books='cd ~/Documents/Books'
 alias sdks='cd /Library/SDKs'
-alias trent='cd ~/Dropbox/trent'
 alias pres='cd ~/Documents/Presentations'
-alias stp='cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages'
 alias dbox='cd ~/Dropbox'
+alias drive='cd ~/Google\ Drive'
 
 # ls
 alias ls="ls -F"

@@ -1,5 +1,6 @@
 . ~/.zsh/config
 . ~/.zsh/aliases
+. ~/.zsh/completion
 
 export DYLD_LIBRARY_PATH=/usr/local/ImageMagick-6.7.1/lib
 
