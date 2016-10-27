@@ -17,7 +17,7 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 PATH=$PATH:/usr/local/share/npm/bin
 
 # Postgres
-PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 # Heroku Toolbelt
 PATH=$PATH:/usr/local/heroku/bin
@@ -25,7 +25,3 @@ PATH=$PATH:/usr/local/heroku/bin
 # RVM
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# NVM
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
