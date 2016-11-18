@@ -2,15 +2,14 @@
 # https://github.com/sasstools/sass-lint/tree/master/docs/rules
 
 options:
-  merge-default-rules: true
   formatter: html
-  output-file: 'linters/sass-lint.html'
   max-warnings: 50
+  merge-default-rules: true
+  output-file: 'linters/sass-lint.html'
 files:
-  include: 'sass/**/*.s+(a|c)ss'
+  include: '**/*.s+(a|c)ss'
   ignore:
     - 'vendor/**/*.*'
-    - 'sass/vendor/**/*.*'
 rules:
   declarations-before-nesting: 1
   extends-before-declarations: 1
