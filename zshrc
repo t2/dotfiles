@@ -25,3 +25,6 @@ PATH=$PATH:/usr/local/heroku/bin
 # RVM
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Yarn
+PATH=$PATH:/USR/LOCAL/HOMEBREW/BIN/yarn
