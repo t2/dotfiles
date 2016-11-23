@@ -2,7 +2,7 @@
 alias rm='rm -rf $1'
 
 # config
-alias dots='atom ~/.dotfiles'
+alias dots='code ~/.dotfiles'
 
 # cd
 alias ..='cd ..'
@@ -72,3 +72,8 @@ alias %=' '
 
 # docker
 alias comp='docker-compose'
+
+# zsh
+alias reload='source ~/.zshrc'
+alias hf='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias sf='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
