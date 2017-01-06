@@ -8,10 +8,9 @@ export DYLD_LIBRARY_PATH=/usr/local/ImageMagick-6.7.1/lib
 [[ -f ~/.localrc ]] && . ~/.localrc
 
 # Android
-PATH=$PATH:/Applications/Android\ Studio.app/sdk/platform-tools
-PATH=$PATH:/Applications/Android\ Studio.app/sdk/build-tools
-PATH=$PATH:/Applications/Android\ Studio.app/sdk/tools
-export ANDROID_HOME=/usr/local/opt/android-sdk
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 # Node
 PATH=$PATH:/usr/local/share/npm/bin
