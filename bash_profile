@@ -11,15 +11,5 @@ PATH=$PATH:/Applications/Android\ Studio.app/sdk/platform-tools
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/build-tools
 PATH=$PATH:/Applications/Android\ Studio.app/sdk/tools
 
-# Node
-PATH=$PATH:/usr/local/share/npm/bin
-
 # Postgres
 PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
-
-# Heroku Toolbelt
-PATH=$PATH:/usr/local/heroku/bin
-
-# RVM
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

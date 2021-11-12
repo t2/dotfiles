@@ -33,6 +33,7 @@ alias gb='git branch'
 alias gs='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
+alias gro="find . -name '*.orig' -delete"
 
 # rails
 alias rsc='rails console'
@@ -45,21 +46,12 @@ alias rst='touch tmp/restart.txt'
 alias lt3='lt --subdomain $1 --port 3000'
 alias lt5='lt --subdomain $1 --port 5000'
 
-# rake
-alias rake='noglob rake'
-
 # rails foreman
 alias fs='foreman start'
 alias fr='foreman run $1'
 
-# rake
-alias rake='noglob rake'
-
 # bundler
 alias bi='bundle install -j8'
-
-# heroku
-alias promote='heroku pipeline promote'
 
 # redis
 alias rs='redis-server'
@@ -73,7 +65,20 @@ alias %=' '
 # docker
 alias comp='docker-compose'
 
+# react native
+alias rn='npx react-native $1'
+alias rnri='npx react-native run-ios'
+alias rnra='npx react-native run-android'
+alias rnrid='npx react-native run-ios --device'
+alias rnrad='npx react-native run-android --device'
+
 # zsh
 alias reload='source ~/.zshrc'
 alias hf='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias sf='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+
+# utility
+alias wl='wunderline $1'
+
+# webpack
+alias wp='./bin/webpack-dev-server --host 127.0.0.1'
