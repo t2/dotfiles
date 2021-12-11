@@ -1,9 +1,0 @@
-#compdef subl
-
-_subl() {
-  if [ -f $1 ]; then
-    echo "args"
-  else
-    echo "no args"
-  fi
-}

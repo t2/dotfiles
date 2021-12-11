@@ -1,0 +1,4 @@
+FILE=./thumbnail.png
+if test -f "$FILE"; then
+  printf $(viu -w 3 thumbnail.png)" "
+fi

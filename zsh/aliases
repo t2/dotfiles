@@ -15,9 +15,9 @@ alias dbox='cd ~/Dropbox'
 alias drive='cd ~/Google\ Drive'
 
 # ls
-alias ls="ls -F"
-alias l="ls -lAh"
-alias ll="ls -l"
+alias ls='ls -F'
+alias l='ls -lAh'
+alias ll='ls -l'
 alias la='ls -A'
 
 # git
@@ -38,26 +38,19 @@ alias gro="find . -name '*.orig' -delete"
 # rails
 alias rsc='rails console'
 alias rs='rails server'
+alias dev='./bin/dev'
+alias be='bundle exec $1'
 alias rg='rails generate'
 alias a='autotest -rails'
 alias tlog='tail -f log/development.log'
 alias migrate='rake db:migrate db:test:clone'
-alias rst='touch tmp/restart.txt'
-alias lt3='lt --subdomain $1 --port 3000'
-alias lt5='lt --subdomain $1 --port 5000'
 
 # rails foreman
 alias fs='foreman start'
 alias fr='foreman run $1'
 
-# bundler
-alias bi='bundle install -j8'
-
 # redis
 alias rs='redis-server'
-
-# cucumber
-alias rca='rake cucumber:all'
 
 # commands starting with % for pasting from web
 alias %=' '
@@ -76,9 +69,6 @@ alias rnrad='npx react-native run-android --device'
 alias reload='source ~/.zshrc'
 alias hf='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias sf='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
-
-# utility
-alias wl='wunderline $1'
 
 # webpack
 alias wp='./bin/webpack-dev-server --host 127.0.0.1'
