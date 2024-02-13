@@ -5,6 +5,9 @@
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && . ~/.localrc
 
+# Homebrew
+export PATH=/opt/homebrew/bin:$PATH
+
 # Yarn
 export PATH="$PATH:$(yarn global bin)"
 
