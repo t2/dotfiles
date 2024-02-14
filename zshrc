@@ -8,6 +8,9 @@
 # Homebrew
 export PATH=/opt/homebrew/bin:$PATH
 
+# asdf
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
 # Yarn
 export PATH="$PATH:$(yarn global bin)"
 
@@ -21,9 +24,6 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-# asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
