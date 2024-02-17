@@ -10,6 +10,7 @@ export PATH=/opt/homebrew/bin:$PATH
 
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+. ~/.asdf/plugins/java/set-java-home.zsh
 
 # Yarn
 export PATH="$PATH:$(yarn global bin)"
